@@ -1,6 +1,6 @@
-# **SUDOKU PIPELINE PROJECT**
+# **SUDOKU PIPELINE LESSON**
 
-## In this project, you will taught to create a data pipeline. 
+## In this project, you will be taught how to create a data pipeline. 
 
 ![funnel](images/funnel.jpg)
 
