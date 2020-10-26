@@ -20,7 +20,7 @@ class APIClient(object):
     machine before running the API with your name and key.
     '''
 
-    def __init__(self, user_name='Test', api_key=None, address='http://127.0.0.1:5000/sudoku_api'):
+    def __init__(self, user_name='Test', api_key=None, address='http://3.101.131.124:8080/sudoku_api'):
         # While these attributes can be changed after instantiation,
         # we generally would not access them. This is indicated by the 
         # name starting with an underscore.
@@ -89,15 +89,15 @@ class APIClient(object):
 
 if __name__ == "__main__":
     pass
-    # # Store your unique api name and key here, or use name = Test for testing:
-    # user_name = 'Test'
-    # api_key = None
+    # Store your unique api name and key here, or use name = Test for testing:
+    user_name = 'Test'
+    api_key = None
 
-    # # Creating a client for accessing the api database.
-    # client = APIClient(user_name, api_key)
+    # Creating a client for accessing the api database.
+    client = APIClient(user_name, api_key)
 
-    # # Acquiring a puzzle from the client. 
-    # # The puzzle is returned as part of a Response object. Try calling
-    # # dir(response) to see what attributes it has. 
-    # # HINT: The puzzle is formatted as a string.
-    # response = client.get_puzzle()
+    # Acquiring a puzzle from the client. 
+    # The puzzle is returned as part of a Response object. Try calling
+    # dir(response) to see what attributes it has. 
+    # HINT: The puzzle is formatted as a string.
+    response = client.get_puzzle()
