@@ -4,11 +4,11 @@ class APIClient(object):
     '''
     Real api client for retrieving sudoku puzzles.
     
-    The Sudoku API will only allow one request every three minutes, and
+    The Sudoku API will only allow one request every minute, and
     up to 500 each day from any one IP address. Additionally, users must
     have a valid username / key combo or no puzzle will be returned.
 
-    The server starts with 50,000 unique puzzles. Each time the API is 
+    The server starts with 5,000 unique puzzles. Each time the API is 
     accessed, a puzzle is removed from the database and sent to the requesting
     computer. Once a puzzle is removed, there is no way to retrieve it a 
     second time. Because of this, it is imperative that you are certain that
@@ -41,7 +41,7 @@ class APIClient(object):
         because it would take too much time. (There are 50,000 of them!) 
         Instead, you will need to automate the API request process by developing
         a pipline. Use this run_time method to automatically pull
-        a new puzzle every 3 minutes. Make sure you have completed the 
+        a new puzzle every 1 minutes. Make sure you have completed the 
         save_puzzle method first before running! '''
 
         # Here is some sudo-code to get you going:

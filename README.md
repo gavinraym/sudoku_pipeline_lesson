@@ -4,11 +4,11 @@
 
 ![funnel](images/funnel.jpg)
 
-#### An api has been set up to allow you access to 50,000 sudoku puzzles. Your task is to create a pipeline that automates the retrieval, solving, and saving of those puzzles. At the end of the week, your peers will have a public Github repo of all 50,000 sudoku puzzles coupled with their solutions. 
+#### An api has been set up to allow you access to 5,000 sudoku puzzles. Your task is to create a pipeline that automates the retrieval, solving, and saving of those puzzles. At the end of the week, your peers will have a public Github repo of all 5,000 sudoku puzzles coupled with their solutions. 
 
 <br />
 
-#### Check out api_example.py in the /src folder. I've already put together an outline of a custom Python class that you can use to design your pipeline. You should start by reading through the entire document, then discussing the problem with your classmates. You will need the full participation of everyone to get all 50,000 puzzles, so make sure and take some time at the beginning to make sure everyone feels confident in their game plan.
+#### Check out api_example.py in the /src folder. I've already put together an outline of a custom Python class that you can use to design your pipeline. You should start by reading through the entire document, then discussing the problem with your classmates. You will need the full participation of everyone to get all 5,000 puzzles, so make sure and take some time at the beginning to make sure everyone feels confident in their game plan.
 
 <br />
 
@@ -28,7 +28,7 @@
 
 <br />
 
-#### At a certain point, the API will run out of puzzles. Each of your classmates will now have a unique set of puzzles, and (as long as everything went as planned...) every one of the 50,000 puzzles will be stored on one of you classmates computers. It's time to combine them into one place. Choose one person who will create a Github repo for storing all the data. Have them include one csv file that you will all add your solutions to. Then take turns adding all your solutions to it! Keep in mind to not create merge conflicts.
+#### At a certain point, the API will run out of puzzles. Each of your classmates will now have a unique set of puzzles, and (as long as everything went as planned...) every one of the 50,00 puzzles will be stored on one of you classmates computers. It's time to combine them into one place. Choose one person who will create a Github repo for storing all the data. Have them include one csv file that you will all add your solutions to. Then take turns adding all your solutions to it! Keep in mind to not create merge conflicts.
 
 <br />
 
